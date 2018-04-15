@@ -1,9 +1,9 @@
 {
   "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Reddit/r/GameDeals filter app",
   "main": "index.js",
-  "repository": "git@github.com:MarkZsombor/ReduxSimpleStarter.git",
+  "repository": "git@github.com:MarkZsombor/reddit-filter-app.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -32,6 +32,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-preset-stage-1": "^6.1.18",
     "eslint": "^4.19.1",
     "express": "^4.16.3",
